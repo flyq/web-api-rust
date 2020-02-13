@@ -1,0 +1,7 @@
+# tower-web-test
+
+## how to use
+terminal 0:
+```shell
+$ curl -H "Content-Type: application/json" -X POST -d '{"text":"中间件小哥"}'  0.0.0.0:8081/tokenize
+{"words":["中间件","小哥"]}
