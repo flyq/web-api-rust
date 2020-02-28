@@ -60,7 +60,7 @@ impl_web! {
 fn main() {
     println!("hello");
     env_logger::init();
-    let addr = "0.0.0.0:8081".parse().expect("invalide address");
+    let addr = "0.0.0.0:8081".parse().expect("invalide address");u
     info!("listening on http://{}", addr);
 
     ServiceBuilder::new()

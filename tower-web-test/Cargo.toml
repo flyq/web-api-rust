@@ -12,3 +12,8 @@ jieba-rs = "0.2"
 log = "0.4.0"
 env_logger = "0.5.12"
 serde = "1.0.70"
+
+[dependencies.cita-tool]
+git = 'https://github.com/citahub/cita-cli.git'
+package = 'cita-tool'
+rev = '89132d0a65eba8a51cac9439ab78708abe50658d'
